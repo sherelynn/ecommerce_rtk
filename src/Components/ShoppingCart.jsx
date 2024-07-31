@@ -68,7 +68,7 @@ const ShoppingCart = () => {
           Clear Cart
         </button>
         <div>
-          {totalAmount ? <div>The total amount is {totalAmount}</div> : ""}
+          {totalAmount ? <div>The total amount is ${totalAmount}.</div> : ""}
         </div>
       </div>
     </>
